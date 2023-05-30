@@ -11,9 +11,9 @@ export default {
         "gray-50": "#EFE6E6",
         "gray-100": "DFCCCC",
         "gray-500": "#001529",
-        "primary-100": "#CCE6FF",   /*"#FFE1E0",*/
-        "primary-300": "#4DA9FF",   /*"#FFA6A3",*/
-        "primary-500": "#0069CC",   /*"#FF6B66",*/
+        "primary-100": "#e3e8e8",   /*"#FFE1E0",*/
+        "primary-300": "#adb8b8",   /*"#FFA6A3",*/
+        "primary-500": "#92a0a0",   /*"#FF6B66",*/
         "secondary-400": "#FFCD58",
         "secondary-500": "#cbcac8",
         "lg-300": "#8a5c26",

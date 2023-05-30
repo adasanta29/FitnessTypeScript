@@ -46,7 +46,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                         </div>
                     </div>)
                     : ( /* Everything below this renders if screen is smaller than isAboveMediumScreens query */
-                        <button className="rounded-full bg-secondary-500 p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                        <button className="rounded-full bg-lg-200 p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
                             <Bars3Icon className="h-6 w-6 text-white"/>
                         </button>
                     )}
@@ -57,8 +57,8 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
 
         {/* MOBILE MENU MODAL */}
         {!isAboveMediumScreens && isMenuToggled && (
-            <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
-                {/*  CLOSE ICON */}
+            <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-lg-200 drop-shadow-xl">
+                {/*CLOSE ICON*/}
                 <div className="flex justify-end p-12">
                     <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
                         <XMarkIcon className="h-6 w-6 text-gray-400"/>
