@@ -2,7 +2,7 @@ import Logo from '@/assets/Logo.png';
 
 const Footer = () => {
   return (
-    <footer className='bg-primary-100 py-16'>
+    <footer className='bg-gray-20 py-16'>
 
         <div className='justify-content mx-auto w-5/6 gap-16 md:flex'>
             <div className='mt-16 basis-1/2 md:mt-0'>
@@ -12,7 +12,7 @@ const Footer = () => {
                     purus et arcu massa dictum condimentum. Augue scelerisque iaculis
                     orci ut habitant laoreet. Iaculis tristique.
                 </p>
-                <p>© Evogym All Rights Reserved.</p>
+                <p>© GX Gym All Rights Reserved.</p>
             </div>
 
             <div className='mt-16 basis-1/4 md:mt-0'>

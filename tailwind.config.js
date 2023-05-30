@@ -7,15 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        "gray-20": "#F8F4EB",
+        "gray-20": "#1e2022",/*"#F8F4EB",*/
         "gray-50": "#EFE6E6",
         "gray-100": "DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
+        "gray-500": "#001529",
+        "primary-100": "#CCE6FF",   /*"#FFE1E0",*/
+        "primary-300": "#4DA9FF",   /*"#FFA6A3",*/
+        "primary-500": "#0069CC",   /*"#FF6B66",*/
         "secondary-400": "#FFCD58",
-        "secondary-500": "#FFC132",
+        "secondary-500": "#cbcac8",
+        "lg-300": "#8a5c26",
+        "lg-200": "#af8b49",
+        "lg-100": "#e7dc8f",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred": "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
@@ -40,3 +43,5 @@ export default {
   },
   plugins: [],
 }
+
+/*(135deg, rgba(138,92,38,1) 13%, rgba(175,139,73,1) 74%, rgba(231,220,143,1) 93%) */

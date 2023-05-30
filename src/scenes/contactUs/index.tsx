@@ -10,7 +10,7 @@ type Props = {
 
 const ContactUs = ({setSelectedPage}: Props) => {
 
-    const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white mb-5`
+    const inputStyles = `w-full rounded-lg bg-lg-200 px-5 py-3 placeholder-white mb-5`
 
     const {
         register,
@@ -36,7 +36,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
                 <HText>
                     <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
                 </HText>
-                <p className="my-5">
+                <p className="my-5 text-gray-20">
                     Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
                     sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
                     adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
@@ -104,13 +104,13 @@ const ContactUs = ({setSelectedPage}: Props) => {
                     className="relative mt-16 basis-2/5 md:mt-0"
                     initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.5, delay: 0.2 }} variants={{ hidden: {opacity: 0, y: -50}, visible: {opacity: 1, y: 0}}}
                 >
-                    <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+                    
                         <img
                             className="w-full"
                             alt="contact-us-page-graphic"
                             src={ContactUsPageGraphic}
                         />
-                    </div>
+
                 </motion.div>
             </div>
 

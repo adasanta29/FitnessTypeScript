@@ -1,8 +1,8 @@
 import { ClassType, SelectedPage } from '@/shared/types';
-import image1 from "@/assets/image1.png";
-import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
+import image1 from "@/assets/image1.jpg";
+import image2 from "@/assets/image2.jpg";
+import image3 from "@/assets/image3.jpg";
+import image4 from "@/assets/image4.jpg";
 import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 
@@ -47,7 +47,7 @@ type Props = {
 
 const OurClasses = ({setSelectedPage}: Props) => {
   return (
-    <section id='ourclasses' className='w-full bg-primary-100 py-40'>
+    <section id='ourclasses' className='w-full bg-lg-200 py-40'>
         <motion.div
             onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
         >
@@ -60,7 +60,7 @@ const OurClasses = ({setSelectedPage}: Props) => {
                     <HText>
                         OUR CLASSES
                     </HText>
-                    <p className='py-5'>
+                    <p className='py-5 text-gray-20'>
                         Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                         tellus quam porttitor. Mauris velit euismod elementum arcu neque
                         facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit

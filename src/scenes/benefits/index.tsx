@@ -39,7 +39,7 @@ const Benefits = ({setSelectedPage}: Props) => {
   return (
     <section 
         id="benefits"
-        className="mx-auto min-h-full w-5/6 py-20" /* if user screen is big enough, Benefits will fill their full screen; otherwise, content will extend to fit */
+        className="mx-auto min-h-full w-5/6 py-40" /* if user screen is big enough, Benefits will fill their full screen; otherwise, content will extend to fit */
     >
         <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
@@ -50,7 +50,7 @@ const Benefits = ({setSelectedPage}: Props) => {
                         initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.5 }} variants={{ hidden: {opacity: 0, x: -50}, visible: {opacity: 1, x: 0}}}
             >
                 <HText>MORE THAN JUST A GYM.</HText>
-                <p className="my-5 text-sm">
+                <p className="my-5 text-sm text-gray-20">
                     We provide world class fitness equipment, trainers and classes to
                     get you to your ultimate fitness goals with ease. We provide true
                     care into each and every member.
@@ -100,7 +100,7 @@ const Benefits = ({setSelectedPage}: Props) => {
 
                     {/* DESCRIPTION */}
                     <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.5, delay: 0.2 }} variants={{ hidden: {opacity: 0, x: 50}, visible: {opacity: 1, x: 0}}}>
-                        <p className="my-5">
+                        <p className="my-5 text-gray-20">
                             Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
                             egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
                             fames vitae vitae quis. Quis amet vulputate tincidunt at in
@@ -108,7 +108,7 @@ const Benefits = ({setSelectedPage}: Props) => {
                             tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
                             Felis orci diam odio.
                         </p>
-                        <p className="mb-5">
+                        <p className="mb-5 text-gray-20">
                             Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                             tellus quam porttitor. Mauris velit euismod elementum arcu neque
                             facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit

@@ -3,9 +3,9 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
+import SponsorBarclays from "@/assets/SponsorBarclays.png";
+import SponsorPepsi from "@/assets/SponsorPepsi.png";
+import SponsorPrime from "@/assets/SponsorPrime.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -29,13 +29,13 @@ const Home = ({ setSelectedPage }: Props) => {
             {/* Headings */}
             <motion.div className="md:-mt-20" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.5 }} variants={{ hidden: {opacity: 0, x: -50}, visible: {opacity: 1, x: 0}}}>
                 <div className="relative">
-                    <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+                    <div className="before:absolute before:-top-[1rem] before:-right-[-20rem] before:z-[-1] md:before:content-evolvetext before:scale-[2.5] before:opacity-[25%]">
                         <img alt="home-page-text" src={HomePageText} />
                     </div>
                 </div>
 
                 <p className="mt-8 text-sm">
-                    Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of.. Get Your Dream Body Now.
+                    Unrivaled, Unparalleled... The Gold Standard Gym. World Class equipment with World Class trainers.
                 </p>
             </motion.div>
 
@@ -65,12 +65,12 @@ const Home = ({ setSelectedPage }: Props) => {
 
     {/* Sponsors */}
     {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
+        <div className="h-[150px] w-full bg-gradient-to-r from-lg-300 from-13% via-lg-200 via-90% to-lg-100 to-93% py-10">
             <div className="mx-auto w-5/6">
                 <div className="flex w-3/5 items-center justify-between gap-8">
-                    <img alt="redbull-sponsor" src={SponsorRedBull} />
-                    <img alt="forbes-sponsor" src={SponsorForbes}/>
-                    <img alt="fortune-sponsor" src={SponsorFortune} />
+                    <img alt="barclays-sponsor" src={SponsorBarclays} />
+                    <img alt="prime-sponsor" src={SponsorPrime} />
+                    <img alt="pepsi-sponsor" src={SponsorPepsi}/>
                 </div>
             </div>
         </div>
